@@ -1,4 +1,4 @@
-import{d,u as x,o as g,c as w,a as s,b as i,w as m,n as o,e,f as r,g as b,r as p,h,i as l}from"./index-BQJKxePs.js";const C=d({__name:"AdminView",setup(v){const a=b(),n=x();return g(()=>{(!n.isAuthenticated||!n.isStaff)&&(console.log("Not authenticated or not staff"),a.push({name:"login"}))}),(_,t)=>{const u=p("router-link"),c=p("router-view");return h(),w("div",{class:o(e(l)(`
+import{d,u as x,o as g,c as w,a as s,b as i,w as m,n as o,e,f as r,g as b,r as p,h,i as l}from"./index-NKYrk6m7.js";const C=d({__name:"AdminView",setup(v){const a=b(),n=x();return g(()=>{(!n.isAuthenticated||!n.isStaff)&&(console.log("Not authenticated or not staff"),a.push({name:"login"}))}),(_,t)=>{const u=p("router-link"),c=p("router-view");return h(),w("div",{class:o(e(l)(`
         flex items-center
         size-full
         bg-[#060606]
