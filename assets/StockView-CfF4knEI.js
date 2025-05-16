@@ -1,4 +1,4 @@
-import{d as A,c as u,L as O,n,e,h as i,i as r,aw as P,a,E as S,z as $,F as D,M as T,b as k,w as C,f as U,s as h,t as y,P as Z,u as K,o as W,x as Y,p as H,y as J,q as F,g as Q}from"./index-gs0ozOOL.js";import{a as E,b as N}from"./index-AFfw5_ON.js";import{s as X}from"./index-CFdkDnNZ.js";const B=["Armamentos","Autômatos","Akuma no Mi","Consumíveis","Criaturas","Cômodos","Diversos","Equipamentos","Transportes","Receitas","Permissões","Profissões"],ee=A({__name:"Button",props:{class:{}},setup(o){const l=o;return(s,c)=>(i(),u("button",{class:n(e(r)(`
+import{d as A,c as u,L as O,n,e,h as i,i as r,aw as P,a,E as S,z as $,F as D,M as T,b as k,w as C,f as U,s as h,t as y,P as Z,u as K,o as W,x as Y,p as H,y as J,q as F,g as Q}from"./index-DyApI3EZ.js";import{a as E,b as N}from"./index-C38VEynT.js";import{s as X}from"./index-C-MvNh0Y.js";const B=["Armamentos","Autômatos","Akuma no Mi","Consumíveis","Criaturas","Cômodos","Diversos","Equipamentos","Transportes","Receitas","Permissões","Profissões"],ee=A({__name:"Button",props:{class:{}},setup(o){const l=o;return(s,c)=>(i(),u("button",{class:n(e(r)(`
           flex-shrink-0
           flex items-center justify-center
           mt-2
@@ -58,7 +58,7 @@ import{d as A,c as u,L as O,n,e,h as i,i as r,aw as P,a,E as S,z as $,F as D,M a
       `)]),onClick:v},[a("div",{class:n(["image",e(r)(`
           aspect-square
           bg-center bg-no-repeat
-        `)]),style:S({"background-image":`url(${l.data.image_url})`,"background-size":"80% 80%"})},null,6)],2))}}),ae=(o,l)=>{const s=o.__vccOpts||o;for(const[c,d]of l)s[c]=d;return s},le=ae(se,[["__scopeId","data-v-2ba78e40"]]),oe=["onClick"],ne={key:0,class:"flex items-center justify-center h-full bg-black/60"},re={key:1,class:"flex items-center justify-center gap-3 h-full bg-black/60"},ie=A({__name:"ItemGrid",props:{items:{}},setup(o){const l=z(),s=h(!1),c=h(-1),d=y(()=>l.selectedCategory),v=y(()=>d.value===null?"Todos os Itens":B[c.value]),f=p=>{l.setSelectedCategory(p),c.value=p,s.value=!1};return(p,b)=>(i(),u("div",{class:n(e(r)(`
+        `)]),style:S({"background-image":`url(${l.data.image_url})`,"background-size":"auto 80%"})},null,6)],2))}}),ae=(o,l)=>{const s=o.__vccOpts||o;for(const[c,d]of l)s[c]=d;return s},le=ae(se,[["__scopeId","data-v-510a2e02"]]),oe=["onClick"],ne={key:0,class:"flex items-center justify-center h-full bg-black/60"},re={key:1,class:"flex items-center justify-center gap-3 h-full bg-black/60"},ie=A({__name:"ItemGrid",props:{items:{}},setup(o){const l=z(),s=h(!1),c=h(-1),d=y(()=>l.selectedCategory),v=y(()=>d.value===null?"Todos os Itens":B[c.value]),f=p=>{l.setSelectedCategory(p),c.value=p,s.value=!1};return(p,b)=>(i(),u("div",{class:n(e(r)(`
         flex flex-col
         size-full
       `))},[a("div",{class:n(e(r)(`
